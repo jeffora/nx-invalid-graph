@@ -1,0 +1,14 @@
+{
+  "name": "@nx-invalid-graph/lib-2",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc --build tsconfig.json"
+  },
+  "dependencies": {
+    "@nx-invalid-graph/lib-1": "0.0.1",
+    "tslib": "^2.3.0"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts"
+}
